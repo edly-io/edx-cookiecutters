@@ -6,7 +6,7 @@ from django.utils import translation
 from xblock.core import XBlock
 from xblock.fields import Scope, Integer
 from xblock.fragment import Fragment
-from xblockutils.resources import ResourceLoader
+from xblock.utils.resources import ResourceLoader
 
 
 class {{cookiecutter.class_name}}(XBlock):
